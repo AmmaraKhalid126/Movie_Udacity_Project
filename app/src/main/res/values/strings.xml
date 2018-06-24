@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MovieStage1</string>
+    <string name="movies_api">430b72f8d2978a3cc73cb88c99814421</string>
 </resources>

@@ -5,18 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/sortSpinner">
+    </Spinner>
     <GridView
         android:id="@+id/movieGrids"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:columnWidth="100dp"
-        android:numColumns="2"
-        android:verticalSpacing="24dp"
-        android:horizontalSpacing="100dp"
-        android:stretchMode="spacingWidth"/>
-
-
+        android:numColumns="auto_fit"
+        android:layout_below="@id/sortSpinner"
+        android:stretchMode="columnWidth"/>
 </RelativeLayout>
